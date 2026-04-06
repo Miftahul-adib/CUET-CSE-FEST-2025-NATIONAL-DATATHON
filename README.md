@@ -1,7 +1,7 @@
 # PoliMemeDecode Challenge - Team Backprop Sust
 
-🏆 **Final Standings:** * **Private Leaderboard:** 20th out of 151 teams
-* **Public Leaderboard:** 37th out of 151 teams
+**Final Standings:** * **Private Leaderboard:** 20th out of 151 teams
+**Public Leaderboard:** 37th out of 151 teams
 
 This repository contains our solution for the **PoliMemeDecode** National Datathon, organized by the Department of CSE, CUET, as part of CUET CSE FEST 2025. 
 
@@ -12,12 +12,12 @@ This repository contains our solution for the **PoliMemeDecode** National Datath
 
 ---
 
-## 🧠 Competition Overview
+##  Competition Overview
 PoliMemeDecode challenges participants to build machine learning models capable of classifying meme content into **Political** and **Non-Political** categories. The challenge emphasizes understanding the subtle intent, satire, and commentary within memes, moving beyond mere humor detection. 
 
 The evaluation metric for this competition is the **Macro F1 Score**, ensuring balanced performance across both classes. A key difficulty of this challenge is a distribution-shifted test dataset, necessitating creative preprocessing and robust modeling strategies.
 
-## 🚀 Our Approach
+##  Our Approach
 To robustly capture the semantics of political memes, we treated each sample as a multi-view text object and implemented a dual-stage classification pipeline:
 
 ### 1. Data Acquisition & Semantic Enrichment
